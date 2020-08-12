@@ -1,0 +1,38 @@
+body{
+    background-color: lightblue;
+}
+#fishTank{
+    display: flex;
+    flex-wrap: no wrap;
+    margin: 1em;
+    border: solid 5px red;
+
+}
+.fishList {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.fishImage{
+    width: 100%;
+    height: auto;
+
+
+}
+
+.fishList-card{
+
+    background-color: green;
+    margin: 1em;
+    flex-basis: 25%;
+    padding: 0 1em;
+
+}
+
+
+aside {
+    background-color: pink;
+}
