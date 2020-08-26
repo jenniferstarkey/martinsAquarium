@@ -1,38 +1,29 @@
-body{
-    background-color: lightblue;
-}
-#fishTank{
-    display: flex;
-    flex-wrap: no wrap;
-    margin: 1em;
-    border: solid 5px red;
-
-}
-.fishList {
-    flex: 3;
-    display: flex;
-    flex-wrap: wrap;
-
-
+body {
+	background-color: antiquewhite;
+	font-family: 'Poppins', sans-serif;
 }
 
-.fishImage{
-    width: 100%;
-    height: auto;
-
-
+#fishTank {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 1em;
+	/* border: 3px dashed burlywood; */
 }
 
-.fishList-card{
-
-    background-color: green;
-    margin: 1em;
-    flex-basis: 25%;
-    padding: 0 1em;
-
+.fishList{
+	flex: 3;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.fishList-card {
+	background-color: lightcyan;
+	margin: 1em;
+	flex-basis: 25%;
+	padding: 0 1em;
 }
 
-
-aside {
-    background-color: pink;
+.fish-image {
+	width: 100%;
+	height: auto;
 }
